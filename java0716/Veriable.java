@@ -1,6 +1,6 @@
 class Variable
 {
-    //변수 - 하나의 값 메모리
+    	//변수 - 하나의 값 메모리
 	//선언(메모리 생성) => 대입 순으로 진행
 	
 	public static void main(String[] args) {
