@@ -5,3 +5,6 @@
 · [변수 선언과 대입](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0716/Veriable.java).  
 · [데이터타입](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0716/DataType.java).  
 · [자동형변환(오토박싱)](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0716/AutoBoxing.java).  
+
+### 2일차 ??? (07월 18일)
+· 
