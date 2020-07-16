@@ -14,5 +14,10 @@ class DataType
 		//실수형
 		double d = 0; 
 
+		//변수 출력
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
 	}
 }
