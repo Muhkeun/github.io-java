@@ -6,7 +6,7 @@
 · [데이터타입](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0716/DataType.java).  
 · [자동형변환(오토박싱)](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0716/AutoBoxing.java).  
 
-### 2일차 ??? (07월 17일)
+### 2일차 연산자(Operator) (07월 17일)
 · [0716 내용복습](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0717/Review0717.java).  
 · [증감연산자](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0717/Operator01.java).  
 · [산술연산자](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0717/Operator02.java).
