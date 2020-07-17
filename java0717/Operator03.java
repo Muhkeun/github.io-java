@@ -1,6 +1,8 @@
 class Operator03{
 	public static void main(String[] args){
 		
+		//비교연산자
+		// '>' : 크다, '<' : 작다, '>=' : 크거나 같다, "<=" : 작거나 같다, "==" : 같다, "!=" : 같지않다.
 		int a = 10;
 		int b = 10;
 	
@@ -21,6 +23,11 @@ class Operator03{
 
 //==========================================================
 
+		//조건연산자
+		//&&(and): 조건이 모두 true일 때, true
+		//||(or): 조건이 하나라도 true일 때, true
+		//!(not): true는 false, false는 true
+		
 		//&&(And), ||(Or) 연산을 이용한 조건연산
 		boolean r4 = true && false;
 		boolean r5 = true || false;
