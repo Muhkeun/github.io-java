@@ -1,8 +1,8 @@
 class ControlState04{
 	public static void main(String [] args){
 
-		//´ÙÁß Æ÷¹®
-		//i°¡ ÇÑ¹ø µ¹ µ¿¾È j´Â 3¹ø µ·´Ù (Åé´Ï¹ÙÄû¿Í ºñ½Á)
+		//ë‹¤ì¤‘ í¬ë¬¸
+		//iê°€ í•œë²ˆ ëŒ ë™ì•ˆ jëŠ” 3ë²ˆ ëˆë‹¤ (í†±ë‹ˆë°”í€´ì™€ ë¹„ìŠ·)
 		for (int i=0; i<3; i= i+1){
 			for(int j=0; j <3; j= j+1){
 				System.out.println("i= "+i + " j= "+ j);
@@ -10,15 +10,15 @@ class ControlState04{
 		System.out.println();
 		}
 		
-		//Â¦¼ö¸¸ Ãâ·ÂÇÏ´Â Æ÷¹®
+		//ì§ìˆ˜ë§Œ ì¶œë ¥í•˜ëŠ” í¬ë¬¸
 		for (int a = 1; a <= 100; a= a+1){
-			//i¸¦ 2¸¦ ³ª´­ ¶§ ³ª¸ÓÁö°¡ 0ÀÏ¶§ => Â¦¼ö
+			//ië¥¼ 2ë¥¼ ë‚˜ëˆŒ ë•Œ ë‚˜ë¨¸ì§€ê°€ 0ì¼ë•Œ => ì§ìˆ˜
 			if(a % 2 == 0){
 				System.out.println(a);
 			}
 		}
 
-		//¿¹Á¦1) 1 ~ 100 ±îÁöÀÇ ÇÕÀ» ±¸ÇÏ½Ã¿À
+		//ì˜ˆì œ1) 1 ~ 100 ê¹Œì§€ì˜ í•©ì„ êµ¬í•˜ì‹œì˜¤
 		int x;
 		int sum = 0;
 		for (x = 1; x<=100; x= x+1){
@@ -28,7 +28,7 @@ class ControlState04{
 		
 		System.out.println(sum);
 		
-		//¿¹Á¦2) 1 ~ 100 ±îÁöÀÇ Â¦/È¦¼öÀÇ ÇÕÀ» ±¸ÇÏ½Ã¿À
+		//ì˜ˆì œ2) 1 ~ 100 ê¹Œì§€ì˜ ì§/í™€ìˆ˜ì˜ í•©ì„ êµ¬í•˜ì‹œì˜¤
 		int y;
 		int r2 = 0;
 		int r3 = 0;
@@ -42,15 +42,15 @@ class ControlState04{
 			}
 		}
 		
-		System.out.println("Â¦¼öÀÇÇÕ: " + r2);
-		System.out.println("È¦¼öÀÇÇÕ: " + r3);
+		System.out.println("ì§ìˆ˜ì˜í•©: " + r2);
+		System.out.println("í™€ìˆ˜ì˜í•©: " + r3);
 
-		//¿¹Á¦3) ´ÙÁß ¹İº¹¹®À» È°¿ëÇÑ ±¸±¸´Ü Ãâ·Â
+		//ì˜ˆì œ3) ë‹¤ì¤‘ ë°˜ë³µë¬¸ì„ í™œìš©í•œ êµ¬êµ¬ë‹¨ ì¶œë ¥
 		int imsi1;
 		int imsi2;
 		
 		for(imsi1 =2; imsi1<10; imsi1= imsi1+1){
-			for(imsi2 = 2; imsi2<10 ;imsi2= imsi2+1){
+			for(imsi2 = 1; imsi2<10 ;imsi2= imsi2+1){
 				
 				int imsi3 = imsi1*imsi2;
 				System.out.println(imsi1 + " X " + imsi2 + " = " + imsi3);
