@@ -7,9 +7,9 @@ class ControlState05{
 	
 	System.out.println("===========================\n");
 		
-		//While¹®À» ÀÌ¿ëÇÏ¿© hello¸¦ 3¹ø Ãâ·ÂÇÏ½Ã¿À.
-		//Áõ°¨½ÄÀÌ µû·Î ¾øÀ» »Ó for¹®°ú ¶È°°À½.
-		//±â°è¾î·Î ¹ø¿ª½Ã °°À½ => ¼öÇà¼Óµµ¿¡ Â÷ÀÌ ¾øÀ½.
+		//Whileë¬¸ì„ ì´ìš©í•˜ì—¬ helloë¥¼ 3ë²ˆ ì¶œë ¥í•˜ì‹œì˜¤.
+		//ì¦ê°ì‹ì´ ë”°ë¡œ ì—†ì„ ë¿ forë¬¸ê³¼ ë˜‘ê°™ìŒ.
+		//ê¸°ê³„ì–´ë¡œ ë²ˆì—­ì‹œ ê°™ìŒ => ìˆ˜í–‰ì†ë„ì— ì°¨ì´ ì—†ìŒ.
 		int i = 0;
 		while(i < 3){
 			System.out.println("Hello");
@@ -18,17 +18,17 @@ class ControlState05{
 	
 	System.out.println("===========================\n");
 		
-		//do ~ while¹®
-		//±âº»ÀûÀ¸·Î ÇÑ¹ø ¼öÇà.
+		//do ~ whileë¬¸
+		//ê¸°ë³¸ì ìœ¼ë¡œ í•œë²ˆ ìˆ˜í–‰.
 		int x = 0;
 		do{
-			System.out.println("¾È³ç?");
+			System.out.println("ì•ˆë…•?");
 			x = x + 1;
 		}while(x < 3);
 
 	System.out.println("===========================\n");
 		
-		//¹Ýº¹¹®¿¡¼­ break¸¦ »ç¿ëÇÏ¸é ¹Ýº¹¹®ÀÌ Á¾·áµÈ´Ù.
+		//ë°˜ë³µë¬¸ì—ì„œ breakë¥¼ ì‚¬ìš©í•˜ë©´ ë°˜ë³µë¬¸ì´ ì¢…ë£Œëœë‹¤.
 		for (int j = 0; j < 100; j = j + 1){
 			System.out.println(j);
 			if (j==10){
@@ -38,18 +38,19 @@ class ControlState05{
 
 	System.out.println("===========================\n");
 	
-		//continue¸¦ »ç¿ëÇÏ¸é Á¶°Ç³» ¼öÇàÀ» ÇÏÁö¾Ê°í Áõ°¨½ÄÀ» °è¼Ó ¼öÇàÇÑ´Ù.
+		//continueë¥¼ ì‚¬ìš©í•˜ë©´ ì¡°ê±´ë‚´ ìˆ˜í–‰ì„ í•˜ì§€ì•Šê³  ì¦ê°ì‹ì„ ê³„ì† ìˆ˜í–‰í•œë‹¤.
 		for (int r = 0; r < 100; r = r + 1){
 			if (r==10){
 				continue;
 			}
 			System.out.println(r);
 		}
-		//break´Â °¡Àå °¡±î¿î ¹Ýº¹¹®À» ³¡³»Áö¸¸ ·¹ÀÌºíÀ» ÁöÁ¤ÇÏ¸é ·¹ÀÌºíÀ» Å»ÃâÇÔ.
+		//breakëŠ” ê°€ìž¥ ê°€ê¹Œìš´ ë°˜ë³µë¬¸ì„ ëë‚´ì§€ë§Œ ë ˆì´ë¸”ì„ ì§€ì •í•˜ë©´ ë ˆì´ë¸”ì„ íƒˆì¶œí•¨.
 		
 	System.out.println("===========================\n");
 		
-		//break´Â °¡Àå °¡±î¿î ¹Ýº¹¹®À» ³¡³»Áö¸¸ ·¹ÀÌºíÀ» ÁöÁ¤ÇÏ¸é ·¹ÀÌºíÀ» Å»ÃâÇÔ.
+		//breakëŠ” ê°€ìž¥ ê°€ê¹Œìš´ ë°˜ë³µë¬¸ì„ ëë‚´ì§€ë§Œ ë ˆì´ë¸”ì„ ì§€ì •í•˜ë©´ ë ˆì´ë¸”ì„ íƒˆì¶œí•¨.
+		//continueë„ ë™ì¼. ë ˆì´ë¸” ì•žì˜ ì¦ê°ì‹ìœ¼ë¡œ ë‚ ì•„ê°„ë‹¤.
 		aaa :
 		for (int imsi1 = 2; imsi1 <10; imsi1 = imsi1 +1){
 			for (int imsi2 = 1; imsi2 <10 ; imsi2 = imsi2 +1){
