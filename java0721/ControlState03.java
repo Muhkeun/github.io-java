@@ -1,6 +1,6 @@
 class ControlState03{
 	public static void main(String[] args){
-		//"Hello World!"¸¦ 10¹ø Ãâ·ÂÇÏ¼¼¿ä.
+		//"Hello World!"ë¥¼ 10ë²ˆ ì¶œë ¥í•˜ì„¸ìš”.
 		System.out.println("Hello World!");
 		System.out.println("Hello World!");
 		System.out.println("Hello World!");
@@ -12,12 +12,15 @@ class ControlState03{
 		System.out.println("Hello World!");
 		System.out.println("Hello World!");
 		
-		//for(ÃÊ±â½Ä; Á¶°Ç½Ä; Áõ°¨½Ä){¼öÇà¹®}
-		//ÃÊ±â½Ä - °¡Àå ¸ÕÀú ¼öÇàÇÏ´Â ºÎºÐÀÌ¸ç µÎ ¹ø ´Ù½Ã ¼öÇàÇÏÁö ¾Ê´Â´Ù.
-		//Á¶°Ç½Ä - ÃÊ±â½Ä ´ÙÀ½À¸·Î ¼öÇàÇÏ´Â ºÎºÐ loop°¡ µ¹ ¶§¸¶´Ù ÇÑ¹ø¾¿ ºñ±³
-		//Áõ°¨½Ä - Áõ°¨½ÄÀº loop¸¦ ¼öÇàÇÒ ¶§¸¶´Ù Á¶°Ç½Ä¿¡¼­ ºñ±³ÇÏ±â Àü¿¡ Ç×»ó ¼öÇàÇÑ´Ù.
+		//for(ì´ˆê¸°ì‹; ì¡°ê±´ì‹; ì¦ê°ì‹){ìˆ˜í–‰ë¬¸}
+		//ì´ˆê¸°ì‹ - ê°€ìž¥ ë¨¼ì € ìˆ˜í–‰í•˜ëŠ” ë¶€ë¶„ì´ë©° ë‘ ë²ˆ ë‹¤ì‹œ ìˆ˜í–‰í•˜ì§€ ì•ŠëŠ”ë‹¤.
+		//ì¡°ê±´ì‹ - ì´ˆê¸°ì‹ ë‹¤ìŒìœ¼ë¡œ ìˆ˜í–‰í•˜ëŠ” ë¶€ë¶„ loopê°€ ëŒ ë•Œë§ˆë‹¤ í•œë²ˆì”© ë¹„êµ
+		//ì¦ê°ì‹ - ì¦ê°ì‹ì€ loopë¥¼ ìˆ˜í–‰í•  ë•Œë§ˆë‹¤ ì¡°ê±´ì‹ì—ì„œ ë¹„êµí•˜ê¸° ì „ì— í•­ìƒ ìˆ˜í–‰í•œë‹¤.
 		for (int i = 0; i < 10; i=i+1){
 			System.out.println("Hello World!");
+		
+			//iì˜ ì¦ê°€ í™•ì¸ - 0,1,2,3,4,5,6,7,8,9 (ì´ 10ë²ˆ)
+			System.out.println(i);
 		}
 	}
 }
