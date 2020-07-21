@@ -17,4 +17,4 @@
 * [문자열 변수,출력메소드와 이스케이프문](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0717/String01.java).  
   
 ### 3일차 ??? (07월21일)
-* [0717 내용복습](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0721/Review0721).
+* [0717 내용복습](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0721/Review0721.java).
