@@ -1,0 +1,32 @@
+class Review0721{
+	public static void main(String[] args){
+		//변수- 하나의 값만 저장할 수 있다.
+		//변수- boolean/ char(숫자로 127까지)/ int(약 20억)/ double (소수점 16자리)
+		// 논리형을 제외하고 형변환이 가능하다.
+		char a = 'A';
+		int x = (int)a;
+		double d = 5.7;
+		x = (int)d;
+		d = (double)x;
+	
+		System.out.println(x);
+		System.out.println(d);
+	
+//===========================================================================
+
+		//연산 - 증감/ 산술/ 비교/ 논리/ 삼항/ 대입
+		//overflow 자료형의 크기를 넘어서면 해당하는 자료형 안에서 순환 (기본 자료형에 유의하자)
+		long y = 1000000*100000;
+		System.out.println(y);
+
+		long r1 = 1000000L*100000;
+		System.out.println(r1);
+		
+		double avg = 365 /10;
+		System.out.println(avg);
+
+		double avg2 = 365/ 10.0;
+		System.out.println(avg2);
+
+	}
+}
