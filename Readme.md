@@ -21,4 +21,5 @@
 * [for문](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0721/ControlState03.java).
 * [for문예제](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0721/ControlState04.java).
 * [while문, break, continue](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0721/ControlState05.java).
+* [3일차 문제풀이](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0721/exam01.java).
 
