@@ -25,4 +25,5 @@
 
 ### 4일차 배열 (07월22일)
 * [배열](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0722/Array01.java).
-* [for~each문, NullPointException](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0722/Array01.java).
+* [for~each문, NullPointException](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0722/Array02.java).
+* [다차원배열](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0722/Array03.java).
