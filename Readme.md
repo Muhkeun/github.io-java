@@ -24,4 +24,4 @@
 * [3일차 문제풀이](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0721/exam01.java).
 
 ### 3일차 배열 (07월22일)
-* [3일차 문제풀이](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0722/Array01.java).
+* [배열](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0722/Array01.java).
