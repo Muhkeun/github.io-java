@@ -23,12 +23,12 @@ class Array01 {
 		a[2] = 300;
 
 		//배열 출력
-		System.out.print("a[0]: " + a[0]+"\n");
-		System.out.print("a[1]: " + a[1]+"\n");
-		System.out.print("a[2]: " + a[2]+"\n");
-		System.out.print("b[0]: " + b[0]+"\n");
-		System.out.print("b[1]: " + b[1]+"\n");
-		System.out.print("b[2]: " + b[2]+"\n");
+		System.out.println("a[0]: " + a[0]);
+		System.out.println("a[1]: " + a[1]);
+		System.out.println("a[2]: " + a[2]);
+		System.out.println("b[0]: " + b[0]);
+		System.out.println("b[1]: " + b[1]);
+		System.out.println("b[2]: " + b[2]);
 		
 		//배열 요소를 사용할 때 잘못된 인덱스를 사용하면 ArrayIndexOutOfBoundsException이 발생.
 		//b배열이 a배열의 주소를 가져가기 때문에 b[6] 값을 대입하면 에러가 뜨는 것을 알 수 있다.
@@ -37,17 +37,17 @@ class Array01 {
 		//"자료형 배열명[] = {데이터나열} => 나열된 데이터를 가지고 생성하는 것. 배열을 처음 생성할 때만 사용가능
 		//"자료형 배열명[] = new 자료형[] {데이터나열} = 나열된 데이터를 가지고 생성
 		int c[] = {10,20,30,40,50};
-		System.out.print("c[0]: " + c[0]+"\n");
-		System.out.print("c[1]: " + c[1]+"\n");
-		System.out.print("c[2]: " + c[2]+"\n");
-		System.out.print("c[3]: " + c[3]+"\n");
+		System.out.println("c[0]: " + c[0]);
+		System.out.println("c[1]: " + c[1]);
+		System.out.println("c[2]: " + c[2]);
+		System.out.println("c[3]: " + c[3]);
 		
 		//배열의 데이터 개수는 length라는 속성으로 제공 - 배열명.length
 		//배열에 메모리 할당이 이루어져 있지 않으면 NullPointerException
 		
-		System.out.print("a배열의 개수:" + a.length +"\n");
-		System.out.print("b배열의 개수:" + b.length +"\n");
-		System.out.print("c배열의 개수:" + c.length +"\n");
+		System.out.println("a배열의 개수:" + a.length);
+		System.out.println("b배열의 개수:" + b.length);
+		System.out.println("c배열의 개수:" + c.length);
 
 	}
 }
