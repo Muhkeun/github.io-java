@@ -15,6 +15,7 @@ class Tv{
 }
 
 class class01{
+	//main()메소드 - 자바 프로그램을 실행할 때 자바 가상머신에서 호출하는 최초의 메소드(entry point)
 	public static void main(String [] args){
 		
 		//new 클래스(); - 클래스()는 생성자를 호출하는 코드, 생성된 객체는 힙 메모리 영역에 생성
