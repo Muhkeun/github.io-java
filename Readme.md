@@ -30,4 +30,4 @@
 * [배열 응용예제](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0722/Arrayexam01.java).
 
 ### 5일차 클래스(Class) (07월23일)
-* 
+* [클래스생성](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0723/class01.java).
