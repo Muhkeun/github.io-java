@@ -24,13 +24,18 @@ class Tv{
 			color = d;
 		}
 		
-		Tv(int ch, int so){
-			sound = so;
+		Tv(int ch, int sound){
+			
+			//instance와 지역 변수가 같을 경우에는 this를 이용해 instance를 구분할 수 있다.
+			this.sound = sound;
+
 			//유효성 검사코드 - channel (1~99)
 			if(ch > 0 && ch <100){
 				channel = ch;
+				System.out.println(this.sound);
 			}else{
 				channel = 1;
+				System.out.println(this.sound);
 			}
 		}
 		
