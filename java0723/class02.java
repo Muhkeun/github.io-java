@@ -1,6 +1,7 @@
 class Tv{
 		int channel;
 		String color;
+		int sound;
 		//생성자 - 객체의 초기화를 담당.(클래스와 이름을 똑같이 해야한다)
 		//필드의 값 설정
 		//메소드 호출해 객체를 사용할 수 있도록 준비하는 역할 수행
@@ -23,10 +24,23 @@ class Tv{
 			color = d;
 		}
 		
+		Tv(int ch, int so){
+			sound = so;
+			//유효성 검사코드 - channel (1~99)
+			if(ch > 0 && ch <100){
+				channel = ch;
+			}else{
+				channel = 1;
+			}
+		}
+		
 		
 }
 
 class class02{
+		//인스턴스(instance) 변수 - class안에 바로 선언.
+		// <=> 지역변수 변수      - 메서드나 생성자 안에 선언.
+		int x = 10;
 	public static void main(String [] args){
 		
 		//호출 - Tv의 객체를 생성하고 생성자를 실행 
@@ -42,7 +56,9 @@ class class02{
 		Tv t3 = new Tv(35, "Red");
 		System.out.println(t3.channel + "\n" + t3.color);
 		
-		
+		//매개변수에 10000을 대입 => 유효성 검사에 의해 channel에 1을 대입.
+		Tv t4 = new Tv(10000,12);
+		System.out.println(t4.channel);
 		
 	}
 }
