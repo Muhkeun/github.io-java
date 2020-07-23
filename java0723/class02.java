@@ -43,9 +43,10 @@ class Tv{
 }
 
 class class02{
-		//인스턴스(instance) 변수 - class안에 바로 선언.
-		// <=> 지역변수 변수      - 메서드나 생성자 안에 선언.
-		int x = 10;
+	//인스턴스(instance) 변수 - class안에 바로 선언.
+	// <=> 지역변수 변수      - 메서드나 생성자 안에 선언.
+	int x = 10;
+	
 	public static void main(String [] args){
 		
 		//호출 - Tv의 객체를 생성하고 생성자를 실행 
