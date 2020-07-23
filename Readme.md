@@ -31,4 +31,4 @@
 
 ### 5일차 클래스(Class) (07월23일)
 * [클래스생성](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0723/class01.java).
-* [생성자](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0723/class01.java).
+* [생성자](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0723/class02.java).
