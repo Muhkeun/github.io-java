@@ -37,4 +37,4 @@
 
 ### 6일차 메서드(Method) (07월24일)
 * [메서드생성](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0724/Method01.java).
-* [메서드 return문, 오버로딩](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0724/Method01.java).
+* [메서드 return문, 오버로딩](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0724/Method02.java).
