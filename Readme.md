@@ -34,3 +34,5 @@
 * [생성자, instance, 지역변수, 유효성검사](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0723/class02.java).
 * [인스턴스 변수, 클래스 변수](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0723/class03.java).
 * [생성자 오버로딩, this](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0723/class04.java).
+
+### 6일차 메서드(Method) (07월24일)
