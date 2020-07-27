@@ -41,4 +41,4 @@
 * [메서드를 이용한 factorial](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0724/fac01.java).
 
 ### 7일차 상속 (07월27일)
- [0727 복습](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/Review0727.java).
+ * [0727 복습](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/Review0727.java).
