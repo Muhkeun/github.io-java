@@ -32,7 +32,16 @@ class Abc{
 
 class Review0727{
 		static double avg = 99.9;
+		//인스턴스 변수 - 객체를 생성해야 호출 가능하다
+		//but 인스턴스 메서드에서는 인스턴스 변수를 호출 할 수 있다.
+		//and 인스턴스 메서드에서 인스턴스 메서드 호출 시엔 역시 가능
+		int x = 10;
 	public static void main(String[] args){
+		
+		//객체 생성 => new 클래스명();
+		Review0727 r = new Review0727();
+		System.out.println(r.x);
+		
 		System.out.println(Mart.name);
 		System.out.println(Abc.num);
 		System.out.println(Review0727.avg);
