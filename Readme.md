@@ -45,3 +45,5 @@
  * [초기화종류](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/BlockTest.java).
  * [final](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/FinalTest.java).
  * [import](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/ImportTest.java).
+ * [접근제어자 private과 get&set](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/TestAcc.java).
+ * [SingleInstancePattern](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/SingleInstanceMain.java).
