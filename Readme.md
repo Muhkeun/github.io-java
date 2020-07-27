@@ -44,4 +44,4 @@
  * [0727 복습](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/Review0727.java).
  * [초기화종류](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/BlockTest.java).
  * [final](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/FinalTest.java).
- * [초기화종류](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/mportTest.java).
+ * [import](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/mportTest.java).
