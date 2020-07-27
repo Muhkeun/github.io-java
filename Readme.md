@@ -42,3 +42,4 @@
 
 ### 7일차 상속 (07월27일)
  * [0727 복습](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/Review0727.java).
+ * [초기화종류](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/.java).
