@@ -39,3 +39,6 @@
 * [메서드생성](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0724/Method01.java).
 * [메서드 return문, 오버로딩](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0724/Method02.java).
 * [메서드를 이용한 factorial](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0724/fac01.java).
+
+### 7일차 상속 (07월27일)
+ [0727 복습](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/Review0727.java).
