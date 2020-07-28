@@ -10,23 +10,23 @@ class Product {
 
 class Tv extends Product {
 	Tv() {
-		//ÇÁ·Î´öÆ® price¿¡ 100
+		//í”„ë¡œë•íŠ¸ priceì— 100
 		super(100);			
 	}
 	public String toString() {
-		//toString() => ¹®ÀÚ¿­ Tv¸¦ ¸®ÅÏ
+		//toString() => ë¬¸ìì—´ Tvë¥¼ ë¦¬í„´
 		return "Tv";
 	}
 }
 
 class Computer extends Product {
 	Computer() {
-		//ÇÁ·Î´öÆ®¿¡ »ı¼ºÀÚ¿¡ 200
+		//í”„ë¡œë•íŠ¸ì— ìƒì„±ìì— 200
 		super(200);
 	}
 
 	public String toString() {
-		//ÄÄÇ»ÅÍ¸¦ ¸®ÅÏ
+		//ì»´í“¨í„°ë¥¼ ë¦¬í„´
 		return "Computer";
 	}
 }
@@ -37,13 +37,13 @@ class Buyer {
 
 	void buy(Product p) {
 		if(money < p.price) {
-			System.out.println("ÀÜ¾×ÀÌ ºÎÁ·ÇÏ¿© ¹°°ÇÀ» »ì¼ö ¾ø½À´Ï´Ù.");
+			System.out.println("ì”ì•¡ì´ ë¶€ì¡±í•˜ì—¬ ë¬¼ê±´ì„ ì‚´ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 			return;
 		}
 
 		money -= p.price;			
 		bonusPoint += p.bonusPoint;	
-		System.out.println(p.toString() + "À»/¸¦ ±¸ÀÔÇÏ¼Ì½À´Ï´Ù.");
+		System.out.println(p.toString() + "ì„/ë¥¼ êµ¬ì…í•˜ì…¨ìŠµë‹ˆë‹¤.");
 	}
 }
 
@@ -71,7 +71,7 @@ class PolyArgumentTest {
 		b.buy(com);
 
 
-		System.out.println("ÇöÀç ³²Àº µ·Àº " + b.money + "¸¸¿øÀÔ´Ï´Ù.");
-		System.out.println("ÇöÀç º¸³Ê½ºÁ¡¼ö´Â " + b.bonusPoint + "Á¡ÀÔ´Ï´Ù.");
+		System.out.println("í˜„ì¬ ë‚¨ì€ ëˆì€ " + b.money + "ë§Œì›ì…ë‹ˆë‹¤.");
+		System.out.println("í˜„ì¬ ë³´ë„ˆìŠ¤ì ìˆ˜ëŠ” " + b.bonusPoint + "ì ì…ë‹ˆë‹¤.");
 	}
 }
