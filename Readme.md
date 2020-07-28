@@ -47,3 +47,6 @@
  * [import](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/ImportTest.java).
  * [접근제어자 private과 get&set](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/TestAcc.java).
  * [SingleInstancePattern](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0727/SingleInstanceMain.java).
+ 
+ ### 8일차 상속(Inheritance) (07월28일)
+  * [extends](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0728/ExTest.java).
