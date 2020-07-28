@@ -52,3 +52,4 @@
   * [extends](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0728/ExTest.java).
   * [Override](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0728/OverrideMain.java).
   * [super()](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0728/SuperTest.java).
+  * [다형성](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0728/Polymorphizm.java).
