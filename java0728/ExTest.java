@@ -19,6 +19,9 @@ class B extends A{
 	B(){
 		System.out.println("B생성자");
 	}
+	void add(){
+		System.out.println("A클래스의 add()");
+	}
 	int y = 20;
 }
 //B는 C를 상속
@@ -40,7 +43,9 @@ class ExTest{
 		System.out.println(c.x);
 		System.out.println(c.y);
 		System.out.println(c.z);
-
+		
+		//메서드도 상속된다.
+		c.add();
 
 	}
 }
