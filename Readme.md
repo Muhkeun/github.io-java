@@ -51,3 +51,4 @@
  ### 8일차 상속(Inheritance) (07월28일)
   * [extends](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0728/ExTest.java).
   * [Override](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0728/OverrideMain.java).
+  * [super()](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0728/SuperTest.java).
