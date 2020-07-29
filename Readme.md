@@ -60,3 +60,4 @@
   * [abstract, interface](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0729/abstractEx.java).
   * [interface 응용 예제(다형성)](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0729/InterfaceTest2.java).
   * [interface 응용 예제2(다형성)](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0729/InterfaceTest3.java).
+  * [interface 응용 예제3(바인딩)](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0729/BindingTest3.java).
