@@ -57,4 +57,4 @@
   
  ### 9일차 인터페이스(Interface) (07월29일)
 
-  * [추상화](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0729/abstractEx.java).
+  * [abstract, interface](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0729/abstractEx.java).
