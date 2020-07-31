@@ -63,4 +63,4 @@
   * [interface 응용 예제3(바인딩)](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0729/BindingTest3.java).
   
   ### 10일차 예외 (Exception) (07월31일)
-   * [](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0731/imsi.java).
+   * [예외처리, 다중catch](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0731/ExceptionMain.java).
