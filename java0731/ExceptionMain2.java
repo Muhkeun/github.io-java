@@ -1,11 +1,11 @@
 class ExceptionMain2{
 	public static void main(String []args){
-		//¿¹¿Ü Ã³¸® ¼ø¼­
+		//ì˜ˆì™¸ ì²˜ë¦¬ ìˆœì„œ
 		try{
 			System.out.println(0);
 			System.out.println(1);
 			System.out.println(0/0);
-			//¿¹¿Ü ¹ß»ı ½Ã ´Ù½Ã µ¹¾Æ°¡Áö ¾ÊÀ½.
+			//ì˜ˆì™¸ ë°œìƒ ì‹œ ë‹¤ì‹œ ëŒì•„ê°€ì§€ ì•ŠìŒ.
 			System.out.println(2);
 		}catch(Exception e){ 
 			System.out.println(4);
@@ -19,13 +19,28 @@ System.out.println("=============================================");
 		int result = 0;
 		
 		for (int i = 0; i < 10; i++){
-			//¿¹¿ÜÃ³¸®°¡ Æ÷¹®¾È¿¡ ÀÖÀ¸¸é ¿¹¿Ü°¡ ÀÏ¾î³ªµµ Ã³¸®ÈÄ ´ÙÀ½ Æ÷¹® ¼öÇà.
+			//ì˜ˆì™¸ì²˜ë¦¬ê°€ í¬ë¬¸ì•ˆì— ìˆìœ¼ë©´ ì˜ˆì™¸ê°€ ì¼ì–´ë‚˜ë„ ì²˜ë¦¬í›„ ë‹¤ìŒ í¬ë¬¸ ìˆ˜í–‰.
 			try{
 				result = number / (int)(Math.random()*10);
 				System.out.println(result);
 			}catch(Exception e){
 				System.out.println("0");
 			}
-		}	
+		}
+System.out.println("============ì˜ˆì™¸ë˜ì§€ê¸°============================");
+
+		method1();
 	}
+		
+		//throws keywords - ì˜ˆì™¸ê°€ ë°œìƒì‹œí‚´ì„ ì•Œë¦¼
+		//ì»´íŒŒì¼ ì‹œ ìœ„ìª½(ë©”ì„œë“œ í˜¸ì¶œë¶€ë¶„)ì— ì˜ˆì™¸ê°€ ë°œìƒí•¨ì„ ì•Œ ìˆ˜ ìˆìŒ
+		//mainì— ì‚¬ìš© ì‹œ ì»´íŒŒì¼ì´ ëœë‹¤.
+		static void method1() throws Exception{
+			method2();
+		} 
+		static void method2() throws Exception{
+			
+			//ê°•ì œë¡œ ì˜ˆì™¸ë¥¼ ë°œìƒ
+			throw new Exception();
+		}
 }
