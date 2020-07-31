@@ -65,3 +65,5 @@
   ### 10일차 예외 (Exception) (07월31일)
    * [예외처리, 다중catch](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0731/ExceptionMain.java).
    * [예외처리의 동작 순서, 예외던지기](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0731/ExceptionMain2.java).
+   * [Throwable 클래스](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0731/ExceptionMain3.java).
+   * [Finally 동작 순서](https://github.com/Muhkeun/muhkeun.github.io-java/blob/master/java0731/FinallyTest3.java).
