@@ -70,4 +70,5 @@
    
   ### 11일차 자바 API (Java's API) (08월03일)
    * [api 사용법](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0803/src/apiTest).
-   * [String  활용](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0803/src/ex1).
+   * [String 클래스 - 생성자, 메서드](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0803/src/ex1).
+   * [String 메서드](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0803/src/ex2).
