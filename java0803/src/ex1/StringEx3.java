@@ -48,5 +48,5 @@ System.out.println("==========================================");
 		String str3 = new String(bytes2, 0, readByteNo-1);
 		System.out.println(str3);
 	}
-}
+} 
 

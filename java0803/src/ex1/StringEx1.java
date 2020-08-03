@@ -4,6 +4,13 @@ public class StringEx1 {
 
 	public static void main(String[] args) {
 		
+		//<문자열 비교>
+		//String strVar1 = new String("홍길동");
+		//String strVar2 = "홍길동";
+		//String strVar3 = "홍길동";
+		//자바는 문자열 리터럴이 동일하다면 동일한 String 객체를 참조하도록 되어 있다.
+		//그래서 strVar2 와 strVar3는 동일한 String 객체를 참조한다.
+		
 		//new를 쓰면 새로운 객체를 만든다.
 		String str1 = new String("abc");
 		String str2 = new String("abc");
