@@ -18,7 +18,7 @@ public class StringMethod02 {
 		String str1 = new String(bytes1);
 		System.out.println("bytes1 => String: "+ str1);
 		
-		// 잘못된 문자셋을 매개값으로 줄 경우 java.io.UnsupportedEncodingException이 발
+		// 잘못된 문자셋을 매개값으로 줄 경우 java.io.UnsupportedEncodingException이 발생
 		try {
 			byte[] bytes2 = str.getBytes("EUC-KR");
 			//EUC-KR 에서는 한글을 2byte, 영어를 1byte로 변환한다.
