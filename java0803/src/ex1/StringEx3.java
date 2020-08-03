@@ -41,7 +41,7 @@ System.out.println("==========================================");
 		
 		System.out.print("입력하시오: ");
 		//IO exception 예외처리 해줘야함.
-		//배열에서 가져온 바이트를 저장하고 읽은 바이트 수를 리턴
+		//배열에서 가져1온 바이트를 저장하고 읽은 바이트 수를 리턴
 		int readByteNo = System.in.read(bytes2);
 		
 		//배열을 문자열로 변환
