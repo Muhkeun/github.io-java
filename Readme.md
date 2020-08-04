@@ -76,5 +76,5 @@
   ### 12일차 자바 API (Java's API) (08월04일)
    * [review0804](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0804/src/review).
    * [Java Api libarary 읽기 - String class](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0804/src/classtest).
-   * [Thread](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0804/src/threadtest).
+   * [Thread, Thread이름](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0804/src/threadtest).
 
