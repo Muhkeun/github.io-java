@@ -30,10 +30,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
-    <configuration name="DataEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.util.DataEx1" />
+  <component name="RunManager" selected="Application.ListEx1">
+    <configuration name="DateEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.util.DateEx1" />
       <module name="java0805" />
       <extension name="coverage">
         <pattern>
@@ -45,9 +48,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DateEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.util.DateEx2" />
+      <module name="java0805" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.ListEx1" />
+      <module name="java0805" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DateEx1" />
+      <item itemvalue="Application.DateEx2" />
+      <item itemvalue="Application.ListEx1" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataEx1" />
+        <item itemvalue="Application.ListEx1" />
+        <item itemvalue="Application.DateEx2" />
+        <item itemvalue="Application.DateEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -73,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596588203709</updated>
-      <workItem from="1596588212825" duration="1981000" />
+      <workItem from="1596588212825" duration="4685000" />
     </task>
     <servers />
   </component>
@@ -81,21 +117,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="253" key="GridCell.Tab.0.bottom" timestamp="1596590710527">
+    <state x="440" y="161" key="#Project_Structure" timestamp="1596592189235">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.23.1680.946@0.23.1680.946" timestamp="1596590710527" />
-    <state width="1638" height="253" key="GridCell.Tab.0.center" timestamp="1596590710526">
+    <state x="440" y="161" key="#Project_Structure/0.23.1680.946@0.23.1680.946" timestamp="1596592189235" />
+    <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596592391144">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.center/0.23.1680.946@0.23.1680.946" timestamp="1596590710526" />
-    <state width="1638" height="253" key="GridCell.Tab.0.left" timestamp="1596590710526">
+    <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.946@0.23.1680.946" timestamp="1596592391144" />
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom" timestamp="1596594282928">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.left/0.23.1680.946@0.23.1680.946" timestamp="1596590710526" />
-    <state width="1638" height="253" key="GridCell.Tab.0.right" timestamp="1596590710526">
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.23.1680.946@0.23.1680.946" timestamp="1596594282928" />
+    <state width="1638" height="253" key="GridCell.Tab.0.center" timestamp="1596594282927">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.946@0.23.1680.946" timestamp="1596590710526" />
+    <state width="1638" height="253" key="GridCell.Tab.0.center/0.23.1680.946@0.23.1680.946" timestamp="1596594282927" />
+    <state width="1638" height="253" key="GridCell.Tab.0.left" timestamp="1596594282927">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.left/0.23.1680.946@0.23.1680.946" timestamp="1596594282927" />
+    <state width="1638" height="253" key="GridCell.Tab.0.right" timestamp="1596594282928">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.946@0.23.1680.946" timestamp="1596594282928" />
+    <state x="505" y="228" width="670" height="675" key="run.anything.popup" timestamp="1596594138966">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="505" y="228" width="670" height="675" key="run.anything.popup/0.23.1680.946@0.23.1680.946" timestamp="1596594138966" />
   </component>
 </project>
