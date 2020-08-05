@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Date;
 //import java.util.*; => java.util의 모든 클래스를 모두 다 import
 
-public class DataEx1 {
+public class DateEx1 {
     public static void main(String[] args) {
         //java.util.Date day = new java.util.Date();
         //java.util.Date를 임포트 하면 Date로 바로 생성 가능
