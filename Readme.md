@@ -80,6 +80,6 @@
 
   ### 13일차 자바 API 2 (Java's API) (08월05일)
   * [Date, Calendar, SimpleDateFormat](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0805/src/test/util).
-  * [ColletionFramework- List](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0805/src/collection).
+  * [ColletionFramework- List, Set](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0805/src/collection).
   
   
