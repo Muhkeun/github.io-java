@@ -16,7 +16,7 @@ public class TcpServer {
         ServerSocket ss = null;
         Socket sock = null;
         try {
-            ss = new ServerSocket(포트번);
+            ss = new ServerSocket(포트번호);
             System.out.println("서버 대기중..");
             while(true) {
                 sock = ss.accept();
