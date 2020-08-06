@@ -85,4 +85,4 @@
   ### 13일차 Java.io (08월06일)
   * [review0806](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0806/src/review0806).
   * [I/O - FileStream](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0806/src/io).
-  * [StreamSocket](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0806/src/streamEx).
+  * [WebDownload, TCPServer, Tcp Client](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0806/src/streamEx).
