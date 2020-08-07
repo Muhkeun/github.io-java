@@ -10,7 +10,7 @@ public class TCPIpMultichatClient {
             System.exit(0);
         }
         try {
-            String serverIp = "아이피주";
+            String serverIp = "아이피주소";
             // 소켓을 생성하여 연결을 요청한다.
             Socket socket = new Socket(serverIp, 포트번호);
             System.out.println("서버에 연결되었습니다.");
