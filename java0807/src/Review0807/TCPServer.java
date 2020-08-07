@@ -9,7 +9,7 @@ public class TCPServer {
     public static void main(String[] args) {
         try {
             //소켓 생성 => ServerSocket(PortNum);
-            ServerSocket ss = new ServerSocket(포트번);
+            ServerSocket ss = new ServerSocket(포트번호);
             while (true){
                 //연결
                 //user : 접속한 사용자 정보
