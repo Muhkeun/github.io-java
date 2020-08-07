@@ -58,14 +58,13 @@
       <recent name="$PROJECT_DIR$/src/Review0807" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TCPIpMultichatClient">
-    <configuration name="TCPIpMultichatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review0807.TCPIpMultichatClient" />
+  <component name="RunManager">
+    <configuration name="ScoreEvaluation" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_util.ScoreEvaluation" />
       <module name="java0807" />
-      <option name="PROGRAM_PARAMETERS" value="대근" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Review0807.*" />
+          <option name="PATTERN" value="practice_util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,72 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review0807.TCPServer" />
-      <module name="java0807" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCPchatServer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TapIpMulticharServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCPchatServer.TapIpMulticharServer" />
-      <module name="java0807" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCPchatServer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2" />
-    </configuration>
-    <configuration name="TcpIpMultichatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCPchatServer.TcpIpMultichatClient" />
-      <module name="java0807" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCPchatServer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TcpIpMultichatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review0807.TcpIpMultichatServer" />
-      <module name="java0807" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Review0807.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.TcpIpMultichatClient" />
-      <item itemvalue="Application.TCPServer" />
-      <item itemvalue="Application.TapIpMulticharServer" />
-      <item itemvalue="Application.TcpIpMultichatServer" />
-      <item itemvalue="Application.TCPIpMultichatClient" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.TCPIpMultichatClient" />
-        <item itemvalue="Application.TcpIpMultichatServer" />
-        <item itemvalue="Application.TapIpMulticharServer" />
-        <item itemvalue="Application.TcpIpMultichatClient" />
-        <item itemvalue="Application.TCPServer" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -168,7 +101,8 @@
       <workItem from="1596770026709" duration="32000" />
       <workItem from="1596770075420" duration="894000" />
       <workItem from="1596772907046" duration="343000" />
-      <workItem from="1596773816795" duration="1988000" />
+      <workItem from="1596773816795" duration="2176000" />
+      <workItem from="1596779271701" duration="10416000" />
     </task>
     <servers />
   </component>
@@ -176,35 +110,64 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596774841241">
-      <screen x="0" y="23" width="1680" height="946" />
+    <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596788609301">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596774841241" />
-    <state width="1638" height="253" key="GridCell.Tab.0.bottom" timestamp="1596774976144">
-      <screen x="0" y="23" width="1680" height="946" />
+    <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1024.305.1024.745/0.23.1680.947@0.23.1680.947" timestamp="1596788609301" />
+    <state x="578" y="250" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1596788135205">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="578" y="250" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1024.305.1024.745/0.23.1680.947@0.23.1680.947" timestamp="1596788135205" />
+    <state width="1638" height="727" key="GridCell.Tab.0.bottom" timestamp="1596791405386">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state width="1638" height="253" key="GridCell.Tab.0.bottom/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596774976144" />
+    <state width="1638" height="727" key="GridCell.Tab.0.bottom/-1024.305.1024.745/0.23.1680.947@0.23.1680.947" timestamp="1596791405386" />
     <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.23.1680.946@0.23.1680.946" timestamp="1596769047462" />
-    <state width="1638" height="253" key="GridCell.Tab.0.center" timestamp="1596774976144">
-      <screen x="0" y="23" width="1680" height="946" />
+    <state width="1638" height="727" key="GridCell.Tab.0.center" timestamp="1596791405386">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state width="1638" height="253" key="GridCell.Tab.0.center/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596774976144" />
+    <state width="1638" height="727" key="GridCell.Tab.0.center/-1024.305.1024.745/0.23.1680.947@0.23.1680.947" timestamp="1596791405386" />
     <state width="1638" height="253" key="GridCell.Tab.0.center/0.23.1680.946@0.23.1680.946" timestamp="1596769047462" />
-    <state width="1638" height="253" key="GridCell.Tab.0.left" timestamp="1596774976143">
-      <screen x="0" y="23" width="1680" height="946" />
+    <state width="1638" height="727" key="GridCell.Tab.0.left" timestamp="1596791405386">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state width="1638" height="253" key="GridCell.Tab.0.left/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596774976143" />
+    <state width="1638" height="727" key="GridCell.Tab.0.left/-1024.305.1024.745/0.23.1680.947@0.23.1680.947" timestamp="1596791405386" />
     <state width="1638" height="253" key="GridCell.Tab.0.left/0.23.1680.946@0.23.1680.946" timestamp="1596769047461" />
-    <state width="1638" height="253" key="GridCell.Tab.0.right" timestamp="1596774976144">
-      <screen x="0" y="23" width="1680" height="946" />
+    <state width="1638" height="727" key="GridCell.Tab.0.right" timestamp="1596791405386">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state width="1638" height="253" key="GridCell.Tab.0.right/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596774976144" />
+    <state width="1638" height="727" key="GridCell.Tab.0.right/-1024.305.1024.745/0.23.1680.947@0.23.1680.947" timestamp="1596791405386" />
     <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.946@0.23.1680.946" timestamp="1596769047462" />
+    <state width="1638" height="74" key="GridCell.Tab.1.bottom" timestamp="1596788678201">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="74" key="GridCell.Tab.1.bottom/-1024.305.1024.745/0.23.1680.947@0.23.1680.947" timestamp="1596788678201" />
+    <state width="1638" height="74" key="GridCell.Tab.1.center" timestamp="1596788678201">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="74" key="GridCell.Tab.1.center/-1024.305.1024.745/0.23.1680.947@0.23.1680.947" timestamp="1596788678200" />
+    <state width="1638" height="74" key="GridCell.Tab.1.left" timestamp="1596788678200">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="74" key="GridCell.Tab.1.left/-1024.305.1024.745/0.23.1680.947@0.23.1680.947" timestamp="1596788678200" />
+    <state width="1638" height="74" key="GridCell.Tab.1.right" timestamp="1596788678201">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="74" key="GridCell.Tab.1.right/-1024.305.1024.745/0.23.1680.947@0.23.1680.947" timestamp="1596788678201" />
     <state x="339" y="131" key="SettingsEditor" timestamp="1596772946591">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
     <state x="339" y="131" key="SettingsEditor/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596772946591" />
     <state x="341" y="135" key="SettingsEditor/0.23.1680.946@0.23.1680.946" timestamp="1596764635993" />
+    <state x="505" y="228" key="run.anything.popup" timestamp="1596789390426">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="505" y="228" key="run.anything.popup/-1024.305.1024.745/0.23.1680.947@0.23.1680.947" timestamp="1596789390426" />
     <state x="505" y="230" width="670" height="676" key="search.everywhere.popup" timestamp="1596772870040">
       <screen x="0" y="23" width="1680" height="946" />
     </state>

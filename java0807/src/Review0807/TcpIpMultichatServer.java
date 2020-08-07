@@ -5,6 +5,7 @@ import java.io.*;
 import java.util.*;
 
 public class TcpIpMultichatServer {
+    //데이터 저장 - 대화명 / OutputStream 객체
     HashMap clients;
 
     TcpIpMultichatServer() {
