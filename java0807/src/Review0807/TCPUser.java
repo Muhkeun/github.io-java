@@ -9,7 +9,7 @@ import java.util.Date;
 public class TCPUser {
     public static void main(String[] args) {
         try{
-            Socket user = new Socket("ip주소", 포트번호);
+            Socket user = new Socket("192.168.0.38", 7777);
             InputStream is = user.getInputStream();
             ObjectInputStream ois = new ObjectInputStream(is);
             Date day = (Date)ois.readObject();

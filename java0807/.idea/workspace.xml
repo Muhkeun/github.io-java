@@ -10,6 +10,20 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,15 +44,41 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Review0807" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.TCPServer">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Review0807" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TCPIpMultichatClient">
+    <configuration name="TCPIpMultichatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Review0807.TCPIpMultichatClient" />
+      <module name="java0807" />
+      <option name="PROGRAM_PARAMETERS" value="대근" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Review0807.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TCPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Review0807.TCPServer" />
       <module name="java0807" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Review0807.*" />
+          <option name="PATTERN" value="TCPchatServer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -46,8 +86,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review0807.TCPUser" />
+    <configuration name="TapIpMulticharServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCPchatServer.TapIpMulticharServer" />
+      <module name="java0807" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCPchatServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2" />
+    </configuration>
+    <configuration name="TcpIpMultichatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCPchatServer.TcpIpMultichatClient" />
+      <module name="java0807" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCPchatServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TcpIpMultichatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Review0807.TcpIpMultichatServer" />
       <module name="java0807" />
       <extension name="coverage">
         <pattern>
@@ -59,10 +123,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TcpIpMultichatClient" />
+      <item itemvalue="Application.TCPServer" />
+      <item itemvalue="Application.TapIpMulticharServer" />
+      <item itemvalue="Application.TcpIpMultichatServer" />
+      <item itemvalue="Application.TCPIpMultichatClient" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TCPIpMultichatClient" />
+        <item itemvalue="Application.TcpIpMultichatServer" />
+        <item itemvalue="Application.TapIpMulticharServer" />
+        <item itemvalue="Application.TcpIpMultichatClient" />
         <item itemvalue="Application.TCPServer" />
-        <item itemvalue="Application.TCPUser" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +162,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596760641386</updated>
-      <workItem from="1596760646017" duration="4361000" />
+      <workItem from="1596760646017" duration="5520000" />
+      <workItem from="1596769720081" duration="165000" />
+      <workItem from="1596769888230" duration="108000" />
+      <workItem from="1596770026709" duration="32000" />
+      <workItem from="1596770075420" duration="894000" />
+      <workItem from="1596772907046" duration="343000" />
+      <workItem from="1596773816795" duration="1754000" />
     </task>
     <servers />
   </component>
@@ -96,25 +176,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="253" key="GridCell.Tab.0.bottom" timestamp="1596767147299">
+    <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596774841241">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.23.1680.946@0.23.1680.946" timestamp="1596767147299" />
-    <state width="1638" height="253" key="GridCell.Tab.0.center" timestamp="1596767147298">
+    <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596774841241" />
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom" timestamp="1596774976144">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.center/0.23.1680.946@0.23.1680.946" timestamp="1596767147298" />
-    <state width="1638" height="253" key="GridCell.Tab.0.left" timestamp="1596767147298">
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596774976144" />
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.23.1680.946@0.23.1680.946" timestamp="1596769047462" />
+    <state width="1638" height="253" key="GridCell.Tab.0.center" timestamp="1596774976144">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.left/0.23.1680.946@0.23.1680.946" timestamp="1596767147298" />
-    <state width="1638" height="253" key="GridCell.Tab.0.right" timestamp="1596767147299">
+    <state width="1638" height="253" key="GridCell.Tab.0.center/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596774976144" />
+    <state width="1638" height="253" key="GridCell.Tab.0.center/0.23.1680.946@0.23.1680.946" timestamp="1596769047462" />
+    <state width="1638" height="253" key="GridCell.Tab.0.left" timestamp="1596774976143">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.946@0.23.1680.946" timestamp="1596767147299" />
-    <state x="341" y="135" key="SettingsEditor" timestamp="1596764635993">
+    <state width="1638" height="253" key="GridCell.Tab.0.left/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596774976143" />
+    <state width="1638" height="253" key="GridCell.Tab.0.left/0.23.1680.946@0.23.1680.946" timestamp="1596769047461" />
+    <state width="1638" height="253" key="GridCell.Tab.0.right" timestamp="1596774976144">
       <screen x="0" y="23" width="1680" height="946" />
     </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.right/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596774976144" />
+    <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.946@0.23.1680.946" timestamp="1596769047462" />
+    <state x="339" y="131" key="SettingsEditor" timestamp="1596772946591">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="339" y="131" key="SettingsEditor/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596772946591" />
     <state x="341" y="135" key="SettingsEditor/0.23.1680.946@0.23.1680.946" timestamp="1596764635993" />
+    <state x="505" y="230" width="670" height="676" key="search.everywhere.popup" timestamp="1596772870040">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="505" y="230" width="670" height="676" key="search.everywhere.popup/-1024.305.1024.745/0.23.1680.946@0.23.1680.946" timestamp="1596772870040" />
   </component>
 </project>
