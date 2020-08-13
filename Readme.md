@@ -91,3 +91,8 @@
   * [Review0807 - TCPServer, Tcp Client](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0807/src/Review0807).
   * [ArrayList실습예제 - 학생성적프로그램](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0807/src/practice_util).
   
+  ### 15일차 oracle과 java 연동하기 (08월13일)
+  * [자바로 오라클 연동해서 불러오기](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0813/src/test/oracle).
+  * [JDBC 드라이버](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0813/src/lib).
+  
+
