@@ -89,4 +89,5 @@
   
   ### 14일차 TCP/IP (08월07일)
   * [Review0807 - TCPServer, Tcp Client](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0807/src/Review0807).
+  * [ArrayList실습예제 - 학생성적프로그램](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0807/src/practice_util).
   
