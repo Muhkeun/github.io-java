@@ -96,5 +96,5 @@
   * [JDBC 드라이버](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0813/src/lib).
   
   ### 16일차 Mybatis (08월18일)
-  * [Mybatis 연동 DTO](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0818/src/test/jdbc).
+  * [Mybatis 연동, selectOne](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0818/src/test/jdbc).
 
