@@ -8,15 +8,17 @@
             <!-- 기술 명칭-->
             <transactionManager type="JDBC" />
             <dataSource type="POOLED">
+                <!-- 드라이브 로드-->
                 <property name="driver" value="oracle.jdbc.driver.OracleDriver" />
-                <property name="url" value="host 주소" />
+                <property name="url" value="호스트" />
                 <property name="username" value="아이디" />
                 <property name="password" value="비밀번호" />
             </dataSource>
         </environment>
     </environments>
     <mappers>
-        <mapper resource="test/jdbc/mapper/mapper.xml" />
+        <!-- 매퍼의 경로 설정, 테이블당 하나씩 만듦 -->
+        <mapper resource="매퍼의 경로 " />
     </mappers>
 </configuration>
 

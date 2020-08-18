@@ -16,9 +16,11 @@ public class MybatisConnectionFactory {
     static {
         // 접속 정보 및 mybatis 설정을 명시하고 있는 xml 경로를 읽기
         try {
+            //sql 정보를 읽어옴
             Reader reader =
                     Resources.getResourceAsReader("test/jdbc/mybatis/mybatis_config.xml");
             if(sqlSessionFactory == null){
+                //작업할 수 있는 용도로 생성해준다.
                 sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
 
             }
@@ -29,6 +31,8 @@ public class MybatisConnectionFactory {
 
     public static SqlSession getSqlSessionFactory(){
         //하나의 세션을 리턴
-        return sqlSessionFactory.openSession();
+       return sqlSessionFactory.openSession();
+
+
     }
 }
