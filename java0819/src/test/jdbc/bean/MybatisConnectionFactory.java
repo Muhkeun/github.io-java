@@ -32,7 +32,7 @@ public class MybatisConnectionFactory {
     public static SqlSession getSqlSession(){
         //하나의 세션을 리턴
         // (true)값을 넣어주면 오토커밋
-       return sqlSessionFactory.openSession();
+       return sqlSessionFactory.openSession(true);
 
 
     }

@@ -18,8 +18,8 @@ public class BookInsert{
         String content = in.nextLine();
         BookDTO dto = new BookDTO();
         dto.setWriter(writer);
-        dto.setContent(content);
         dto.setTitle(title);
+        dto.setContent(content);
 
 
         SqlSession sql = MybatisConnectionFactory.getSqlSession();

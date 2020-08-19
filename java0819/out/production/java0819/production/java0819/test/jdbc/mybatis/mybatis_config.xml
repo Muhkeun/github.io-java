@@ -19,7 +19,7 @@
     <mappers>
             <!-- 매퍼의 경로 설정, 테이블당 하나씩 만듦 -->
         <mapper resource="test/jdbc/mapper/mapper.xml"/>
-
+        <mapper resource="test/jdbc/mapper/dynamicSqlMapper.xml"/>
     </mappers>
 </configuration>
 

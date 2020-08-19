@@ -34,4 +34,22 @@
         </if>
     </trim>
     </select>
+
+    <update id="bookUpdate" parameterType="test.jdbc.bean.BookDTO">
+        update book
+        <trim prefix="set" suffixOverrides=",">
+            <if test="writer != null"> writer =#{writer},</if>
+            <if test="title != null"> title =#{title},</if>
+            <if test="content != null"> content =#{content},</if>
+        </trim>
+    where num =#{num}
+    </update>
+
+    <select id="bookFor" resultType="test.jdbc.bean.BookDTO" parameterType="list">
+        select * from book where writer in
+        <foreach item = "data" collection="list" open ="(" separator="," close=")">
+            #{data}
+        </foreach>
+    </select>
+
 </mapper>

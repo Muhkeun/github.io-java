@@ -1,17 +1,12 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<!-- 매퍼를 구별하는 이름 Like Java의 클래스와 비슷 -->
 <mapper namespace="book">
-
     <resultMap id="bookDTO" type="test.jdbc.bean.BookDTO">
         <result column="num" property="num"/>
         <result column="writer" property="title"/>
         <result column="title" property="content"/>
         <result column="content" property="writer"/>
         <result column="reg" property="reg"/>
-    <!--  컬럼에 없는 새로운 이름도 사용해서 쓸 수 있다.    -->
-        <result column="id" property="writer"/>
     </resultMap>
 
     <select id="bookSelect" resultMap="bookDTO">
@@ -23,10 +18,6 @@
        where num = #{num}
     </sql>
 
-    <select id="bookNum" resultType="test.jdbc.bean.BookDTO" parameterType="int">
-        select * from book
-        <include refid="whereNum"/>
-    </select>
 
 <!--resultType: 결과에 대한 타입 -->
 <!-- DTO이름을 집어넣으면 해당 변수에 맞게 맵퍼가 변경해준다.-->
@@ -55,5 +46,4 @@
     <delete id="bookDelete" parameterType="int">
         delete from book where num = #{num}
     </delete>
-
 </mapper>
