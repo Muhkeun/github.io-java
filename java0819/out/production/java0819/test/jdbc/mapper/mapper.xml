@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 매퍼를 구별하는 이름 Like Java의 클래스와 비슷 -->
+<mapper namespace="book">
+<!--resultType: 결과에 대한 타입 -->
+<!-- DTO이름을 집어넣으면 해당 변수에 맞게 맵퍼가 변경해준다.-->
+  <select id="bookCount" resultType ="int">
+      select COUNT(*) from book
+  </select>
+
+<!--    resultType이 여러 개일 경우 DTO 타입으로 한다.-->
+    <select id="bookAll" resultType="test.jdbc.bean.BookDTO">
+        select * from book
+    </select>
+
+<!-- prameter type: 채워 넣을 타입 -->
+    <select id="bookNum" resultType="test.jdbc.bean.BookDTO" parameterType="int">
+        select * from book where num = #{value}
+    </select>
+</mapper>

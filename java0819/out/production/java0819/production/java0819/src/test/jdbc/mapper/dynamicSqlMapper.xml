@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="bookMapper">
+    <select id="bookIf" resultType="test.jdbc.bean.BookDTO" parameterType="int">
+        select * from book
+        <if test = "num > 0">
+            where num = #{num}
+        </if>
+    </select>
+
+    <select id="bookChoose" resultType="test.jdbc.bean.BookDTO" parameterType="test.jdbc.bean.BookDTO">
+        select * from book
+        <choose>
+            <when test = "num > 0">
+                where num = #{num}
+            </when>
+            <when test = "writer != null">
+                where wirter = #{writer}
+            </when>
+        </choose>
+    </select>
+
+    <select id="booktri"
+</mapper>
