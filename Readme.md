@@ -97,4 +97,6 @@
   
   ### 16일차 Mybatis (08월18일)
   * [Mybatis 연동, selectOne](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0818/src/test/jdbc).
-
+  
+  ### 17일차 Mybatis2 (08월19일)
+  * [mapper Xml 설정, 동적 Sql](https://github.com/Muhkeun/muhkeun.github.io-java/tree/master/java0819/src/test/jdbc/mapper).
